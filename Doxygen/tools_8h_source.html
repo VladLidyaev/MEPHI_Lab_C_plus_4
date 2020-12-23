@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DUNGEON AND NECROMANCER: Исходный файл /Users/vlad/CLionProjects/Game/tools/tools.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">DUNGEON AND NECROMANCER
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d522931ffa1371640980b621734a4381.html">Users</a></li><li class="navelem"><a class="el" href="dir_9926bb6baf1a3a37a2e7485bae4c568e.html">vlad</a></li><li class="navelem"><a class="el" href="dir_537481920132a075cf8bba8d9c651267.html">CLionProjects</a></li><li class="navelem"><a class="el" href="dir_54895f3dd1886ed311205f520c1c286e.html">Game</a></li><li class="navelem"><a class="el" href="dir_a56e3a8ee5834ce98dad8e0368f8749f.html">tools</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">tools.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tools_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Created by Vlad on 16.12.2020.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#ifndef GAME_TOOLS_H</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#define GAME_TOOLS_H</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structcoord.html">   12</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structcoord.html">coord</a>{ </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structcoord.html#a420d2df22c044db935f60ead330da9bb">   13</a></span>&#160;    <a class="code" href="structcoord.html#a420d2df22c044db935f60ead330da9bb">coord</a>(<span class="keywordtype">int</span> <a class="code" href="_c_make_cache_8txt.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a>, <span class="keywordtype">int</span> y){</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="structcoord.html#a358c956ae26d4c83094ea62b54245b7b">X</a> = <a class="code" href="_c_make_cache_8txt.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="structcoord.html#addf009a8ae7cbbd8d3f47cfc9ffb66fd">Y</a> = y;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structcoord.html#a3a3d5e543ec7e84fac1071c92ab06865">   17</a></span>&#160;    <a class="code" href="structcoord.html#a3a3d5e543ec7e84fac1071c92ab06865">coord</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structcoord.html#a358c956ae26d4c83094ea62b54245b7b">   18</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structcoord.html#a358c956ae26d4c83094ea62b54245b7b">X</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structcoord.html#addf009a8ae7cbbd8d3f47cfc9ffb66fd">   19</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structcoord.html#addf009a8ae7cbbd8d3f47cfc9ffb66fd">Y</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structplayers__info.html">   22</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structplayers__info.html">players_info</a>{ </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structplayers__info.html#aa4021897fb45a22daae3db5e8c68d1a0">   23</a></span>&#160;    <a class="code" href="structplayers__info.html#aa4021897fb45a22daae3db5e8c68d1a0">players_info</a>(<a class="code" href="structcoord.html">coord</a> coord1,<span class="keywordtype">bool</span> is_friend){</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="structplayers__info.html#a36dc2ddcff6d6005d4b5e97bc6b161d7">location</a> = coord1;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="structplayers__info.html#acc23d3460ac02ea9ed94e215bcc0aee2">is_ally</a> = is_friend;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="structplayers__info.html#a8ef59134396549869e81cb933271d6ba">   27</a></span>&#160;    <a class="code" href="structplayers__info.html#a8ef59134396549869e81cb933271d6ba">players_info</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="structplayers__info.html#a36dc2ddcff6d6005d4b5e97bc6b161d7">   28</a></span>&#160;    <a class="code" href="structcoord.html">coord</a> <a class="code" href="structplayers__info.html#a36dc2ddcff6d6005d4b5e97bc6b161d7">location</a>{};</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structplayers__info.html#acc23d3460ac02ea9ed94e215bcc0aee2">   29</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structplayers__info.html#acc23d3460ac02ea9ed94e215bcc0aee2">is_ally</a>{};</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="tools_8h.html#af400eddec602878adf51144295270f7e">operator== </a>(<span class="keyword">const</span> <a class="code" href="structcoord.html">coord</a> &amp;c1, <span class="keyword">const</span> <a class="code" href="structcoord.html">coord</a> &amp;c2); </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3">   34</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3">level</a>{ </div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3a572de25ab407dbb15064afd320f06232">   35</a></span>&#160;    <a class="code" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3a572de25ab407dbb15064afd320f06232">stupid</a>,</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3ad943cb042ac469a9e86eb246ecd6435c">   36</a></span>&#160;    <a class="code" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3ad943cb042ac469a9e86eb246ecd6435c">beginner</a>,</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3a923324eeb7c1a703a1626bd67b37ed19">   37</a></span>&#160;    <a class="code" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3a923324eeb7c1a703a1626bd67b37ed19">middle</a>,</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3ae893ef76de2887c53b89287550f7710d">   38</a></span>&#160;    <a class="code" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3ae893ef76de2887c53b89287550f7710d">pro</a>,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6">   41</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6">condition</a>{ </div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6ac188eabb2d61ddb1e8632280be9b0dd5">   42</a></span>&#160;    <a class="code" href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6ac188eabb2d61ddb1e8632280be9b0dd5">alive</a>,</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6adf0329c27f5bca551fee45753ef3ed08">   43</a></span>&#160;    <a class="code" href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6adf0329c27f5bca551fee45753ef3ed08">undead</a>,</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6a2bc11c916ebf99c8bd8b66b416de6d62">   44</a></span>&#160;    <a class="code" href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6a2bc11c916ebf99c8bd8b66b416de6d62">dead</a>,</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281a">   47</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281a">caste_types</a>{ </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aafea679ad1b5f68b01cf230ae62c536a1">   48</a></span>&#160;    <a class="code" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aafea679ad1b5f68b01cf230ae62c536a1">Ogre</a>,</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aa82e24ff0d0b8066ea4728ab820edc81f">   49</a></span>&#160;    <a class="code" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aa82e24ff0d0b8066ea4728ab820edc81f">Goblin</a>,</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aa73dbe69740a15d9a52b6585c5033562c">   50</a></span>&#160;    <a class="code" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aa73dbe69740a15d9a52b6585c5033562c">Mercenary</a>,</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aae168fb880dc0042ac28438e1875e41d3">   51</a></span>&#160;    <a class="code" href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aae168fb880dc0042ac28438e1875e41d3">User</a>,</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;};</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<a class="code" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3">level</a> <a class="code" href="tools_8h.html#abf4e6caefdc4b4ff68cc96934fa6015f">str_to_level</a>(<span class="keywordtype">int</span> <a class="code" href="_c_make_cache_8txt.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a>); </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="structfile__for__upload.html">   56</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structfile__for__upload.html">file_for_upload</a>{ </div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="structfile__for__upload.html#acc6de6c939f5fc2f9060cc6e11e9d8e6">   57</a></span>&#160;    <a class="code" href="structfile__for__upload.html#acc6de6c939f5fc2f9060cc6e11e9d8e6">file_for_upload</a>(std::vector&lt;std::string&gt; txt){</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="structfile__for__upload.html#a073bd755806ad951a3d7e6205b4d10ca">floor</a> = std::stoi(txt[0]);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="structfile__for__upload.html#a74566c2f62a37ac30cd5144627533f77">experience</a> = std::stoi(txt[1]);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="structfile__for__upload.html#a8932d966b8dd6f1afc18da5787c826a0">user_name</a> = txt[2];</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="structfile__for__upload.html#a3e8703bae091fa61cf2fd23d4ba1320e">field_length_int</a> = std::stoi(txt[3]);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="structfile__for__upload.html#aaca5e6fc639ccb0c9211918ca38b4b09">field_height_int</a> = std::stoi(txt[4]);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="structfile__for__upload.html#a48c40054171f0e21d8919086cce7882e">lvl</a> = <a class="code" href="tools_8h.html#abf4e6caefdc4b4ff68cc96934fa6015f">str_to_level</a>(std::stoi(txt[5]));</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="structfile__for__upload.html#a073bd755806ad951a3d7e6205b4d10ca">   65</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structfile__for__upload.html#a073bd755806ad951a3d7e6205b4d10ca">floor</a>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="structfile__for__upload.html#a74566c2f62a37ac30cd5144627533f77">   66</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structfile__for__upload.html#a74566c2f62a37ac30cd5144627533f77">experience</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="structfile__for__upload.html#a8932d966b8dd6f1afc18da5787c826a0">   67</a></span>&#160;    std::string <a class="code" href="structfile__for__upload.html#a8932d966b8dd6f1afc18da5787c826a0">user_name</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="structfile__for__upload.html#a3e8703bae091fa61cf2fd23d4ba1320e">   68</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structfile__for__upload.html#a3e8703bae091fa61cf2fd23d4ba1320e">field_length_int</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="structfile__for__upload.html#aaca5e6fc639ccb0c9211918ca38b4b09">   69</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structfile__for__upload.html#aaca5e6fc639ccb0c9211918ca38b4b09">field_height_int</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="structfile__for__upload.html#a48c40054171f0e21d8919086cce7882e">   70</a></span>&#160;    <a class="code" href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3">level</a> <a class="code" href="structfile__for__upload.html#a48c40054171f0e21d8919086cce7882e">lvl</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;};</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">float</span> <a class="code" href="tools_8h.html#aca727f21f945f52d923d9578da5ba8f8">get_length</a>(<a class="code" href="structcoord.html">coord</a> a, <a class="code" href="structcoord.html">coord</a> b); </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="tools_8h.html#a0a5176efb4e8902bd7a7940f2bf5eb07">is_content</a>(<a class="code" href="structcoord.html">coord</a> a,std::vector&lt;coord&gt; b); </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;std::string <a class="code" href="tools_8h.html#af4e7e92fdc8e1c2ff6e11e886f1230a4">add_space</a>(std::string str); </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#endif //GAME_TOOLS_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="astructplayers__info_html_acc23d3460ac02ea9ed94e215bcc0aee2"><div class="ttname"><a href="structplayers__info.html#acc23d3460ac02ea9ed94e215bcc0aee2">players_info::is_ally</a></div><div class="ttdeci">bool is_ally</div><div class="ttdef"><b>Definition:</b> tools.h:29</div></div>
+<div class="ttc" id="atools_8h_html_af400eddec602878adf51144295270f7e"><div class="ttname"><a href="tools_8h.html#af400eddec602878adf51144295270f7e">operator==</a></div><div class="ttdeci">bool operator==(const coord &amp;c1, const coord &amp;c2)</div><div class="ttdef"><b>Definition:</b> tools.cpp:3</div></div>
+<div class="ttc" id="astructcoord_html_a358c956ae26d4c83094ea62b54245b7b"><div class="ttname"><a href="structcoord.html#a358c956ae26d4c83094ea62b54245b7b">coord::X</a></div><div class="ttdeci">int X</div><div class="ttdef"><b>Definition:</b> tools.h:18</div></div>
+<div class="ttc" id="atools_8h_html_ab41b2d879281759a306cb425fb4b281aae168fb880dc0042ac28438e1875e41d3"><div class="ttname"><a href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aae168fb880dc0042ac28438e1875e41d3">User</a></div><div class="ttdeci">@ User</div><div class="ttdef"><b>Definition:</b> tools.h:51</div></div>
+<div class="ttc" id="atools_8h_html_afde8e18a788ccc92fc61cab298bca7e3"><div class="ttname"><a href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3">level</a></div><div class="ttdeci">level</div><div class="ttdoc">Перегрузка оператора равенства для координат.</div><div class="ttdef"><b>Definition:</b> tools.h:34</div></div>
+<div class="ttc" id="astructfile__for__upload_html_a8932d966b8dd6f1afc18da5787c826a0"><div class="ttname"><a href="structfile__for__upload.html#a8932d966b8dd6f1afc18da5787c826a0">file_for_upload::user_name</a></div><div class="ttdeci">std::string user_name</div><div class="ttdef"><b>Definition:</b> tools.h:67</div></div>
+<div class="ttc" id="atools_8h_html_af4e7e92fdc8e1c2ff6e11e886f1230a4"><div class="ttname"><a href="tools_8h.html#af4e7e92fdc8e1c2ff6e11e886f1230a4">add_space</a></div><div class="ttdeci">std::string add_space(std::string str)</div><div class="ttdoc">Функция проверяет содержание данных координат в данном массиве координат.</div><div class="ttdef"><b>Definition:</b> tools.cpp:24</div></div>
+<div class="ttc" id="atools_8h_html_a4824b91cc0e6b5f112bdd8049af4d7d6a2bc11c916ebf99c8bd8b66b416de6d62"><div class="ttname"><a href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6a2bc11c916ebf99c8bd8b66b416de6d62">dead</a></div><div class="ttdeci">@ dead</div><div class="ttdef"><b>Definition:</b> tools.h:44</div></div>
+<div class="ttc" id="astructcoord_html_addf009a8ae7cbbd8d3f47cfc9ffb66fd"><div class="ttname"><a href="structcoord.html#addf009a8ae7cbbd8d3f47cfc9ffb66fd">coord::Y</a></div><div class="ttdeci">int Y</div><div class="ttdef"><b>Definition:</b> tools.h:19</div></div>
+<div class="ttc" id="astructcoord_html_a3a3d5e543ec7e84fac1071c92ab06865"><div class="ttname"><a href="structcoord.html#a3a3d5e543ec7e84fac1071c92ab06865">coord::coord</a></div><div class="ttdeci">coord()=default</div></div>
+<div class="ttc" id="astructfile__for__upload_html_a3e8703bae091fa61cf2fd23d4ba1320e"><div class="ttname"><a href="structfile__for__upload.html#a3e8703bae091fa61cf2fd23d4ba1320e">file_for_upload::field_length_int</a></div><div class="ttdeci">int field_length_int</div><div class="ttdef"><b>Definition:</b> tools.h:68</div></div>
+<div class="ttc" id="astructcoord_html_a420d2df22c044db935f60ead330da9bb"><div class="ttname"><a href="structcoord.html#a420d2df22c044db935f60ead330da9bb">coord::coord</a></div><div class="ttdeci">coord(int x, int y)</div><div class="ttdoc">Структура для хранения координат.</div><div class="ttdef"><b>Definition:</b> tools.h:13</div></div>
+<div class="ttc" id="atools_8h_html_ab41b2d879281759a306cb425fb4b281aa73dbe69740a15d9a52b6585c5033562c"><div class="ttname"><a href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aa73dbe69740a15d9a52b6585c5033562c">Mercenary</a></div><div class="ttdeci">@ Mercenary</div><div class="ttdef"><b>Definition:</b> tools.h:50</div></div>
+<div class="ttc" id="astructfile__for__upload_html_aaca5e6fc639ccb0c9211918ca38b4b09"><div class="ttname"><a href="structfile__for__upload.html#aaca5e6fc639ccb0c9211918ca38b4b09">file_for_upload::field_height_int</a></div><div class="ttdeci">int field_height_int</div><div class="ttdef"><b>Definition:</b> tools.h:69</div></div>
+<div class="ttc" id="atools_8h_html_ab41b2d879281759a306cb425fb4b281aafea679ad1b5f68b01cf230ae62c536a1"><div class="ttname"><a href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aafea679ad1b5f68b01cf230ae62c536a1">Ogre</a></div><div class="ttdeci">@ Ogre</div><div class="ttdoc">Перечисление всех каст персонажей.</div><div class="ttdef"><b>Definition:</b> tools.h:48</div></div>
+<div class="ttc" id="astructplayers__info_html_aa4021897fb45a22daae3db5e8c68d1a0"><div class="ttname"><a href="structplayers__info.html#aa4021897fb45a22daae3db5e8c68d1a0">players_info::players_info</a></div><div class="ttdeci">players_info(coord coord1, bool is_friend)</div><div class="ttdoc">Структура для хранения данных о всех объектах на поле, используемая симулятором для нахождения симуля...</div><div class="ttdef"><b>Definition:</b> tools.h:23</div></div>
+<div class="ttc" id="atools_8h_html_a4824b91cc0e6b5f112bdd8049af4d7d6"><div class="ttname"><a href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6">condition</a></div><div class="ttdeci">condition</div><div class="ttdef"><b>Definition:</b> tools.h:41</div></div>
+<div class="ttc" id="atools_8h_html_a4824b91cc0e6b5f112bdd8049af4d7d6adf0329c27f5bca551fee45753ef3ed08"><div class="ttname"><a href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6adf0329c27f5bca551fee45753ef3ed08">undead</a></div><div class="ttdeci">@ undead</div><div class="ttdef"><b>Definition:</b> tools.h:43</div></div>
+<div class="ttc" id="atools_8h_html_abf4e6caefdc4b4ff68cc96934fa6015f"><div class="ttname"><a href="tools_8h.html#abf4e6caefdc4b4ff68cc96934fa6015f">str_to_level</a></div><div class="ttdeci">level str_to_level(int x)</div><div class="ttdef"><b>Definition:</b> tools.cpp:33</div></div>
+<div class="ttc" id="atools_8h_html_a4824b91cc0e6b5f112bdd8049af4d7d6ac188eabb2d61ddb1e8632280be9b0dd5"><div class="ttname"><a href="tools_8h.html#a4824b91cc0e6b5f112bdd8049af4d7d6ac188eabb2d61ddb1e8632280be9b0dd5">alive</a></div><div class="ttdeci">@ alive</div><div class="ttdoc">Перечисление возможных состояний объектов на карте.</div><div class="ttdef"><b>Definition:</b> tools.h:42</div></div>
+<div class="ttc" id="astructfile__for__upload_html_a073bd755806ad951a3d7e6205b4d10ca"><div class="ttname"><a href="structfile__for__upload.html#a073bd755806ad951a3d7e6205b4d10ca">file_for_upload::floor</a></div><div class="ttdeci">int floor</div><div class="ttdef"><b>Definition:</b> tools.h:65</div></div>
+<div class="ttc" id="a_c_make_cache_8txt_html_a9336ebf25087d91c818ee6e9ec29f8c1"><div class="ttname"><a href="_c_make_cache_8txt.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a></div><div class="ttdeci">x</div><div class="ttdef"><b>Definition:</b> CMakeCache.txt:299</div></div>
+<div class="ttc" id="atools_8h_html_ab41b2d879281759a306cb425fb4b281aa82e24ff0d0b8066ea4728ab820edc81f"><div class="ttname"><a href="tools_8h.html#ab41b2d879281759a306cb425fb4b281aa82e24ff0d0b8066ea4728ab820edc81f">Goblin</a></div><div class="ttdeci">@ Goblin</div><div class="ttdef"><b>Definition:</b> tools.h:49</div></div>
+<div class="ttc" id="astructfile__for__upload_html_a74566c2f62a37ac30cd5144627533f77"><div class="ttname"><a href="structfile__for__upload.html#a74566c2f62a37ac30cd5144627533f77">file_for_upload::experience</a></div><div class="ttdeci">int experience</div><div class="ttdef"><b>Definition:</b> tools.h:66</div></div>
+<div class="ttc" id="atools_8h_html_ab41b2d879281759a306cb425fb4b281a"><div class="ttname"><a href="tools_8h.html#ab41b2d879281759a306cb425fb4b281a">caste_types</a></div><div class="ttdeci">caste_types</div><div class="ttdef"><b>Definition:</b> tools.h:47</div></div>
+<div class="ttc" id="astructfile__for__upload_html_acc6de6c939f5fc2f9060cc6e11e9d8e6"><div class="ttname"><a href="structfile__for__upload.html#acc6de6c939f5fc2f9060cc6e11e9d8e6">file_for_upload::file_for_upload</a></div><div class="ttdeci">file_for_upload(std::vector&lt; std::string &gt; txt)</div><div class="ttdoc">Структура для загрузки/выгрузки состояния персонажа и уровня из конфигурационного файла.</div><div class="ttdef"><b>Definition:</b> tools.h:57</div></div>
+<div class="ttc" id="atools_8h_html_afde8e18a788ccc92fc61cab298bca7e3ad943cb042ac469a9e86eb246ecd6435c"><div class="ttname"><a href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3ad943cb042ac469a9e86eb246ecd6435c">beginner</a></div><div class="ttdeci">@ beginner</div><div class="ttdef"><b>Definition:</b> tools.h:36</div></div>
+<div class="ttc" id="atools_8h_html_a0a5176efb4e8902bd7a7940f2bf5eb07"><div class="ttname"><a href="tools_8h.html#a0a5176efb4e8902bd7a7940f2bf5eb07">is_content</a></div><div class="ttdeci">bool is_content(coord a, std::vector&lt; coord &gt; b)</div><div class="ttdoc">Функция возвращает расстояние между двумя точками.</div><div class="ttdef"><b>Definition:</b> tools.cpp:14</div></div>
+<div class="ttc" id="atools_8h_html_afde8e18a788ccc92fc61cab298bca7e3ae893ef76de2887c53b89287550f7710d"><div class="ttname"><a href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3ae893ef76de2887c53b89287550f7710d">pro</a></div><div class="ttdeci">@ pro</div><div class="ttdef"><b>Definition:</b> tools.h:38</div></div>
+<div class="ttc" id="astructfile__for__upload_html_a48c40054171f0e21d8919086cce7882e"><div class="ttname"><a href="structfile__for__upload.html#a48c40054171f0e21d8919086cce7882e">file_for_upload::lvl</a></div><div class="ttdeci">level lvl</div><div class="ttdef"><b>Definition:</b> tools.h:70</div></div>
+<div class="ttc" id="astructplayers__info_html_a8ef59134396549869e81cb933271d6ba"><div class="ttname"><a href="structplayers__info.html#a8ef59134396549869e81cb933271d6ba">players_info::players_info</a></div><div class="ttdeci">players_info()=default</div></div>
+<div class="ttc" id="atools_8h_html_afde8e18a788ccc92fc61cab298bca7e3a923324eeb7c1a703a1626bd67b37ed19"><div class="ttname"><a href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3a923324eeb7c1a703a1626bd67b37ed19">middle</a></div><div class="ttdeci">@ middle</div><div class="ttdef"><b>Definition:</b> tools.h:37</div></div>
+<div class="ttc" id="astructfile__for__upload_html"><div class="ttname"><a href="structfile__for__upload.html">file_for_upload</a></div><div class="ttdoc">Функция преобразования индекса уровня сложности в параметр пересичления сложности.</div><div class="ttdef"><b>Definition:</b> tools.h:56</div></div>
+<div class="ttc" id="atools_8h_html_afde8e18a788ccc92fc61cab298bca7e3a572de25ab407dbb15064afd320f06232"><div class="ttname"><a href="tools_8h.html#afde8e18a788ccc92fc61cab298bca7e3a572de25ab407dbb15064afd320f06232">stupid</a></div><div class="ttdeci">@ stupid</div><div class="ttdoc">Перечисление возможных уровней сложности игры.</div><div class="ttdef"><b>Definition:</b> tools.h:35</div></div>
+<div class="ttc" id="astructcoord_html"><div class="ttname"><a href="structcoord.html">coord</a></div><div class="ttdef"><b>Definition:</b> tools.h:12</div></div>
+<div class="ttc" id="atools_8h_html_aca727f21f945f52d923d9578da5ba8f8"><div class="ttname"><a href="tools_8h.html#aca727f21f945f52d923d9578da5ba8f8">get_length</a></div><div class="ttdeci">float get_length(coord a, coord b)</div><div class="ttdef"><b>Definition:</b> tools.cpp:10</div></div>
+<div class="ttc" id="astructplayers__info_html"><div class="ttname"><a href="structplayers__info.html">players_info</a></div><div class="ttdef"><b>Definition:</b> tools.h:22</div></div>
+<div class="ttc" id="astructplayers__info_html_a36dc2ddcff6d6005d4b5e97bc6b161d7"><div class="ttname"><a href="structplayers__info.html#a36dc2ddcff6d6005d4b5e97bc6b161d7">players_info::location</a></div><div class="ttdeci">coord location</div><div class="ttdef"><b>Definition:</b> tools.h:28</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>
