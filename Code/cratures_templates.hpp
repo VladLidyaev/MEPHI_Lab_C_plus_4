@@ -34,8 +34,9 @@ public:
         second = nullptr;
         third = ptr;
     }
-    std::variant<OgreClass *, GoblinClass *, MercenaryClass *> get_value(){
-        std::variant<OgreClass *, GoblinClass *, MercenaryClass *> ans;
+
+    std::variant<T *, S *, V *> get_value(){
+        std::variant<T *, S *, V *> ans;
         if (first != nullptr){
             ans = first;
         }
