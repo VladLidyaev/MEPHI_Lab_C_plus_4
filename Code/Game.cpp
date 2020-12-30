@@ -183,8 +183,21 @@ std::vector<std::unique_ptr<Creature>> Game::generate_creatures(){
             }
             system("clear");
         }
+        switch (level) {
+            case stupid:
+                user.update_exp(140);
+                break;
+            case beginner:
+                user.update_exp(120);
+                break;
+            case middle:
+                user.update_exp(100);
+                break;
+            case pro:
+                user.update_exp(80);
+                break;
+        }
         main_vector = generate_creatures();
-//        usleep(5000000);
     }
 
     void Game::ending(bool win){
@@ -284,7 +297,6 @@ std::vector<std::unique_ptr<Creature>> Game::generate_creatures(){
     }
 
     std::vector<std::string> Game::get_matrix(){
-        std::cout << main_vector[0]->location.X << std::endl;
     
         std::vector<std::string> ans;
         for (int i=0; i < height; i++) {

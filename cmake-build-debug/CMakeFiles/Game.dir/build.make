@@ -77,9 +77,22 @@ include CMakeFiles/Game.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Game.dir/flags.make
 
+CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.o: ../Code/Tests/HeroClassTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Tests/HeroClassTest.cpp
+
+CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vlad/CLionProjects/Game/Code/Tests/HeroClassTest.cpp > CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.i
+
+CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlad/CLionProjects/Game/Code/Tests/HeroClassTest.cpp -o CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.s
+
 CMakeFiles/Game.dir/Code/main.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/Code/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/Code/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/main.cpp.o -c /Users/vlad/CLionProjects/Game/Code/main.cpp
 
 CMakeFiles/Game.dir/Code/main.cpp.i: cmake_force
@@ -92,7 +105,7 @@ CMakeFiles/Game.dir/Code/main.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/Code/tools/tools.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/tools/tools.cpp.o: ../Code/tools/tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/Code/tools/tools.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/Code/tools/tools.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/tools/tools.cpp.o -c /Users/vlad/CLionProjects/Game/Code/tools/tools.cpp
 
 CMakeFiles/Game.dir/Code/tools/tools.cpp.i: cmake_force
@@ -105,7 +118,7 @@ CMakeFiles/Game.dir/Code/tools/tools.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o: ../Code/Hero/Hero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Hero/Hero.cpp
 
 CMakeFiles/Game.dir/Code/Hero/Hero.cpp.i: cmake_force
@@ -118,7 +131,7 @@ CMakeFiles/Game.dir/Code/Hero/Hero.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/Code/Game.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/Code/Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/Code/Game.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Game.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Game.cpp
 
 CMakeFiles/Game.dir/Code/Game.cpp.i: cmake_force
@@ -131,7 +144,7 @@ CMakeFiles/Game.dir/Code/Game.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o: ../Code/Creatures/Creature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Creature.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.i: cmake_force
@@ -144,7 +157,7 @@ CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o: ../Code/Creatures/Ogre/OgreClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Ogre/OgreClass.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.i: cmake_force
@@ -157,7 +170,7 @@ CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o: ../Code/Creatures/Goblin/GoblinClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinClass.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.i: cmake_force
@@ -170,7 +183,7 @@ CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o: ../Code/Creatures/Mercenary/MercenaryClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryClass.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.i: cmake_force
@@ -183,7 +196,7 @@ CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o: ../Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.i: cmake_force
@@ -196,7 +209,7 @@ CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.s: 
 
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o: ../Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.i: cmake_force
@@ -209,7 +222,7 @@ CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.s
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.i: cmake_force
@@ -222,7 +235,7 @@ CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o: ../Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.i: cmake_force
@@ -235,7 +248,7 @@ CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.s: cmake_f
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.i: cmake_force
@@ -248,7 +261,7 @@ CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp
 
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.i: cmake_force
@@ -261,6 +274,7 @@ CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShor
 
 # Object files for target Game
 Game_OBJECTS = \
+"CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.o" \
 "CMakeFiles/Game.dir/Code/main.cpp.o" \
 "CMakeFiles/Game.dir/Code/tools/tools.cpp.o" \
 "CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o" \
@@ -279,6 +293,7 @@ Game_OBJECTS = \
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
 
+Game: CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.o
 Game: CMakeFiles/Game.dir/Code/main.cpp.o
 Game: CMakeFiles/Game.dir/Code/tools/tools.cpp.o
 Game: CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o
@@ -298,7 +313,7 @@ Game: lib/libgtestd.a
 Game: lib/libgtest_maind.a
 Game: lib/libgtestd.a
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

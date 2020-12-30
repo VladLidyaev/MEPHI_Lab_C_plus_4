@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/vlad/CLionProjects/Game/Code/Creatures/Ogre/OgreClass.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o"
   "/Users/vlad/CLionProjects/Game/Code/Game.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Game.cpp.o"
   "/Users/vlad/CLionProjects/Game/Code/Hero/Hero.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o"
+  "/Users/vlad/CLionProjects/Game/Code/Tests/HeroClassTest.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.o"
   "/Users/vlad/CLionProjects/Game/Code/main.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/main.cpp.o"
   "/Users/vlad/CLionProjects/Game/Code/tools/tools.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/tools/tools.cpp.o"
   )

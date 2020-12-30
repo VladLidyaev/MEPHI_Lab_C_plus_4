@@ -565,6 +565,33 @@ Code/Hero/Hero.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Hero/Hero.cpp.s
 .PHONY : Code/Hero/Hero.cpp.s
 
+Code/Tests/HeroClassTest.o: Code/Tests/HeroClassTest.cpp.o
+
+.PHONY : Code/Tests/HeroClassTest.o
+
+# target to build an object file
+Code/Tests/HeroClassTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.o
+.PHONY : Code/Tests/HeroClassTest.cpp.o
+
+Code/Tests/HeroClassTest.i: Code/Tests/HeroClassTest.cpp.i
+
+.PHONY : Code/Tests/HeroClassTest.i
+
+# target to preprocess a source file
+Code/Tests/HeroClassTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.i
+.PHONY : Code/Tests/HeroClassTest.cpp.i
+
+Code/Tests/HeroClassTest.s: Code/Tests/HeroClassTest.cpp.s
+
+.PHONY : Code/Tests/HeroClassTest.s
+
+# target to generate assembly for a file
+Code/Tests/HeroClassTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.s
+.PHONY : Code/Tests/HeroClassTest.cpp.s
+
 Code/main.o: Code/main.cpp.o
 
 .PHONY : Code/main.o
@@ -672,6 +699,9 @@ help:
 	@echo "... Code/Hero/Hero.o"
 	@echo "... Code/Hero/Hero.i"
 	@echo "... Code/Hero/Hero.s"
+	@echo "... Code/Tests/HeroClassTest.o"
+	@echo "... Code/Tests/HeroClassTest.i"
+	@echo "... Code/Tests/HeroClassTest.s"
 	@echo "... Code/main.o"
 	@echo "... Code/main.i"
 	@echo "... Code/main.s"

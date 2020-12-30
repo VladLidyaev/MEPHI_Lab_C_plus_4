@@ -2,7 +2,7 @@
 // Created by Vlad on 30.12.2020.
 //
 
-#include "GoblinBowTail.hpp"
+#include "GoblinBowTail.h"
 
 void GoblinBowTail::increased_impact() {
     radius_of_hitting++;

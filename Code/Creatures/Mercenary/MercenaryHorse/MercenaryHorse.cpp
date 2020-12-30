@@ -2,7 +2,7 @@
 // Created by Vlad on 30.12.2020.
 //
 
-#include "MercenaryHorse.hpp"
+#include "MercenaryHorse.h"
 
 void MercenaryHorse::change_hitting(){
     if ((location.X%3 == 0)&&(location.Y%3 == 0)){

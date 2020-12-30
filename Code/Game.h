@@ -7,11 +7,11 @@
 #include <unistd.h>
 #include "Hero/Hero.h"
 #include "Creatures/Ogre/OgreClass.h"
-#include "Creatures/Mercenary/MercenaryHorse/MercenaryHorse.hpp"
+#include "Creatures/Mercenary/MercenaryHorse/MercenaryHorse.h"
 #include "Creatures/Mercenary/MercenaryFoot/MercenaryFoot.h"
 #include "Creatures/Goblin/GoblinSpear/GoblinSpear.h"
 #include "Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.h"
-#include "Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.hpp"
+#include "Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.h"
 #include <fstream>
 #include "cratures_templates.hpp"
 
@@ -76,20 +76,6 @@ public:
         user = Hero(name,length,height);
         win_field = coord((length-1),(height-1));
         all_info = get_all_info();
-        switch (level) {
-            case stupid:
-                user.update_exp(100);
-                break;
-            case beginner:
-                user.update_exp(80);
-                break;
-            case middle:
-                user.update_exp(60);
-                break;
-            case pro:
-                user.update_exp(40);
-                break;
-        }
     }
 
     void hit_mode_switch();  /// Смена режима прицеливания на режим перемещения.

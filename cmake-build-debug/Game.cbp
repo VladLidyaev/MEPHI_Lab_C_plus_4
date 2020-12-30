@@ -339,7 +339,7 @@
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp">
 			<Option target="Game"/>
 		</Unit>
-		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.hpp">
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.h">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinClass.cpp">
@@ -369,7 +369,7 @@
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp">
 			<Option target="Game"/>
 		</Unit>
-		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.hpp">
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.h">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Ogre/OgreClass.cpp">
@@ -388,6 +388,9 @@
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Hero/Hero.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Tests/HeroClassTest.cpp">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/cratures_templates.hpp">

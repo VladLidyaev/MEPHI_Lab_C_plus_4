@@ -2,8 +2,8 @@
 // Created by Vlad on 30.12.2020.
 //
 
-#ifndef GAME_MERCENARYHORSE_HPP
-#define GAME_MERCENARYHORSE_HPP
+#ifndef GAME_MERCENARYHORSE_H
+#define GAME_MERCENARYHORSE_H
 
 #include "../MercenaryClass.h"
 
@@ -37,4 +37,4 @@ public:
 };
 
 
-#endif //GAME_MERCENARYHORSE_HPP
+#endif //GAME_MERCENARYHORSE_H
