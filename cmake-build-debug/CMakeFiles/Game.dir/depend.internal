@@ -79,50 +79,50 @@ CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o
  /Users/vlad/CLionProjects/Game/Code/Hero/Hero.h
  /Users/vlad/CLionProjects/Game/Code/tools/tools.h
 CMakeFiles/Game.dir/Code/Tests/HeroClassTest.cpp.o
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-death-test.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-matchers.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-message.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-param-test.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-printers.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-test-part.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest_prod.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
  /Users/vlad/CLionProjects/Game/Code/Hero/Hero.h
  /Users/vlad/CLionProjects/Game/Code/Tests/HeroClassTest.cpp
  /Users/vlad/CLionProjects/Game/Code/tools/tools.h
 CMakeFiles/Game.dir/Code/main.cpp.o
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-death-test.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-matchers.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-message.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-param-test.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-printers.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-test-part.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
- ../Code/lib/googletest-master/googletest/include/gtest/gtest_prod.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
- ../Code/lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
  /Users/vlad/CLionProjects/Game/Code/Creatures/Creature.h
  /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBow.h
  /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.h

@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/vlad/CLionProjects/Game/Code/lib/googletest-master/googlemock/include -isystem /Users/vlad/CLionProjects/Game/Code/lib/googletest-master/googletest/include -isystem /Users/vlad/CLionProjects/Game/Code/lib/googletest-master/googletest 
+CXX_INCLUDES = -I/Users/vlad/CLionProjects/Game/lib/googletest-master/googlemock/include -isystem /Users/vlad/CLionProjects/Game/lib/googletest-master/googletest/include -isystem /Users/vlad/CLionProjects/Game/lib/googletest-master/googletest 
 

@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vlad/CLionProjects/Game/cmake-build-debug/Code/lib/googletest-master/cmake_install.cmake")
+  include("/Users/vlad/CLionProjects/Game/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -24,15 +24,15 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../Code/lib/googletest-master/googlemock/include"
-  "../Code/lib/googletest-master/googletest/include"
-  "../Code/lib/googletest-master/googletest"
+  "../lib/googletest-master/googlemock/include"
+  "../lib/googletest-master/googletest/include"
+  "../lib/googletest-master/googletest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/vlad/CLionProjects/Game/cmake-build-debug/Code/lib/googletest-master/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/Users/vlad/CLionProjects/Game/cmake-build-debug/Code/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/Users/vlad/CLionProjects/Game/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/Users/vlad/CLionProjects/Game/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
