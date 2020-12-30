@@ -11,7 +11,9 @@ class OgreClass : public Creature {
 
 private:
 
-    int get_ogre_max_points(level level); /// Функция возвращает максимальное количество очков, за убийство данного персонажа.
+    int get_damage();
+
+    int get_stride_length();
 
 public:
 
@@ -22,17 +24,21 @@ public:
         is_alive = true; /// Смотри класс Creature.
         lvl = lvl; /// Смотри класс Creature.
         condition = alive; /// Смотри класс Creature.
-        max_points = get_ogre_max_points(lvl); /// Смотри класс Creature.
+        max_points = get_max_points(lvl); /// Смотри класс Creature.
         health = max_points/4; /// Смотри класс Creature.
         damage = max_points/8; /// Смотри класс Creature.
         radius_of_hitting = 1; /// Смотри класс Creature.
         stride_length = 1; /// Смотри класс Creature.
         field_length = field_length_int; /// Смотри класс Creature.
         field_height = field_height_int; /// Смотри класс Creature.
+        talent = "More HP - less speed.";
     }
 
     std::string get_view(); /// Функция возвращает строковой символ состояния данного персонажа.
 
+    int get_max_points(level level);/// Функция возвращает максимальное количество очков, за убийство данного персонажа.
+
+    void reload();
 };
 
 #endif //GAME_OGRECLASS_HPP

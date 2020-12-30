@@ -324,16 +324,52 @@
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Creature.h">
 			<Option target="Game"/>
 		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBow.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.hpp">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinClass.cpp">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinClass.h">
 			<Option target="Game"/>
 		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.h">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryClass.cpp">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryClass.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.hpp">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/Users/vlad/CLionProjects/Game/Code/Creatures/Ogre/OgreClass.cpp">

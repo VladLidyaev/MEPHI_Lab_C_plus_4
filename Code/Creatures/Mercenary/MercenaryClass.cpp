@@ -4,7 +4,18 @@
 
 #include "MercenaryClass.h"
 
-int MercenaryClass::get_mercenary_max_points(level level){
+void MercenaryClass::upgrade_lvl(){
+    if ((location.X <= 5) || (location.Y <= 5)) {
+        lvl = pro;
+        max_points = get_max_points(lvl);
+        health = max_points/2;
+        damage = max_points/2;
+    }
+}
+
+
+
+int MercenaryClass::get_max_points(level level){
     switch (level) {
         case stupid:
             return 50;
@@ -17,13 +28,6 @@ int MercenaryClass::get_mercenary_max_points(level level){
     }
 }
 
-std::string MercenaryClass::get_view() {
-    switch (condition) {
-        case alive:
-            return "M";
-        case dead:
-            return "✖";
-        case undead:
-            return "m";
-    }
+MercenaryClass::MercenaryClass() {
+
 }

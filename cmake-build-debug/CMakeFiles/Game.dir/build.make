@@ -181,6 +181,84 @@ CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryClass.cpp -o CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.s
 
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o: ../Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp
+
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp > CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.i
+
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp -o CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.s
+
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o: ../Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp
+
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp > CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.i
+
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp -o CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.s
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp > CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.i
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.s
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o: ../Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp > CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.i
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.s
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp > CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.i
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.s
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o -c /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp > CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.i
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp -o CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.s
+
 # Object files for target Game
 Game_OBJECTS = \
 "CMakeFiles/Game.dir/Code/main.cpp.o" \
@@ -190,7 +268,13 @@ Game_OBJECTS = \
 "CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o" \
 "CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o" \
 "CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o" \
-"CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o"
+"CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o" \
+"CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o" \
+"CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o" \
+"CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o" \
+"CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o" \
+"CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o" \
+"CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o"
 
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
@@ -203,12 +287,18 @@ Game: CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o
 Game: CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o
 Game: CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o
 Game: CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o
+Game: CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o
+Game: CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o
+Game: CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o
+Game: CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o
+Game: CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o
+Game: CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o
 Game: CMakeFiles/Game.dir/build.make
 Game: lib/libgtestd.a
 Game: lib/libgtest_maind.a
 Game: lib/libgtestd.a
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

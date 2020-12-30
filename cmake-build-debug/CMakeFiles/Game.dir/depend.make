@@ -5,15 +5,53 @@ CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o: ../Code/Creatures/Creature.cp
 CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o: ../Code/Creatures/Creature.h
 CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o: ../Code/tools/tools.h
 
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o: ../Code/Creatures/Creature.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBow.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o: ../Code/Creatures/Goblin/GoblinClass.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o: ../Code/tools/tools.h
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: ../Code/Creatures/Creature.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBow.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: ../Code/Creatures/Goblin/GoblinClass.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o: ../Code/tools/tools.h
+
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: ../Code/Creatures/Creature.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBow.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.hpp
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: ../Code/Creatures/Goblin/GoblinClass.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o: ../Code/tools/tools.h
+
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o: ../Code/Creatures/Creature.h
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o: ../Code/Creatures/Goblin/GoblinClass.cpp
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o: ../Code/Creatures/Goblin/GoblinClass.h
 CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o: ../Code/tools/tools.h
 
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o: ../Code/Creatures/Creature.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o: ../Code/Creatures/Goblin/GoblinClass.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o: ../Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o: ../Code/Creatures/Goblin/GoblinSpear/GoblinSpear.h
+CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o: ../Code/tools/tools.h
+
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o: ../Code/Creatures/Creature.h
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o: ../Code/Creatures/Mercenary/MercenaryClass.cpp
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o: ../Code/Creatures/Mercenary/MercenaryClass.h
 CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o: ../Code/tools/tools.h
+
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o: ../Code/Creatures/Creature.h
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o: ../Code/Creatures/Mercenary/MercenaryClass.h
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o: ../Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o: ../Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.h
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o: ../Code/tools/tools.h
+
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o: ../Code/Creatures/Creature.h
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o: ../Code/Creatures/Mercenary/MercenaryClass.h
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o: ../Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o: ../Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.hpp
+CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o: ../Code/tools/tools.h
 
 CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o: ../Code/Creatures/Creature.h
 CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o: ../Code/Creatures/Ogre/OgreClass.cpp
@@ -21,8 +59,14 @@ CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o: ../Code/Creatures/Ogre/
 CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o: ../Code/tools/tools.h
 
 CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Creature.h
+CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBow.h
+CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.h
+CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.hpp
 CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Goblin/GoblinClass.h
+CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Goblin/GoblinSpear/GoblinSpear.h
 CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Mercenary/MercenaryClass.h
+CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.h
+CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.hpp
 CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Creatures/Ogre/OgreClass.h
 CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Game.cpp
 CMakeFiles/Game.dir/Code/Game.cpp.o: ../Code/Game.h
@@ -35,8 +79,14 @@ CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o: ../Code/Hero/Hero.h
 CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o: ../Code/tools/tools.h
 
 CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Creature.h
+CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBow.h
+CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.h
+CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.hpp
 CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Goblin/GoblinClass.h
+CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Goblin/GoblinSpear/GoblinSpear.h
 CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Mercenary/MercenaryClass.h
+CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.h
+CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.hpp
 CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Creatures/Ogre/OgreClass.h
 CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Game.h
 CMakeFiles/Game.dir/Code/main.cpp.o: ../Code/Hero/Hero.h

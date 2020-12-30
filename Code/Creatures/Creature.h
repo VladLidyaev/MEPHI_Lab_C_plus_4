@@ -34,8 +34,16 @@ public:
     int stride_length; /// Длина шага персонажа.
     int field_length; /// Длина игрового поля.
     int field_height; /// Высота игрового поля.
+    std::string talent;
+    int talent_stat;
 
     Creature();
+
+    virtual std::string get_view(){};
+
+    virtual void reload(){};
+
+    virtual int get_max_points(level level){};
 
     void reload_statistic(int points); /// Обновление данных с учетом урона.
 

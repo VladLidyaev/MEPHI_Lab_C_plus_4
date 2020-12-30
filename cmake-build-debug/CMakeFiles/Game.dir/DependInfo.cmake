@@ -5,8 +5,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/vlad/CLionProjects/Game/Code/Creatures/Creature.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.o"
+  "/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o"
+  "/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o"
+  "/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o"
   "/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinClass.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.o"
+  "/Users/vlad/CLionProjects/Game/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o"
   "/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryClass.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.o"
+  "/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o"
+  "/Users/vlad/CLionProjects/Game/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o"
   "/Users/vlad/CLionProjects/Game/Code/Creatures/Ogre/OgreClass.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Creatures/Ogre/OgreClass.cpp.o"
   "/Users/vlad/CLionProjects/Game/Code/Game.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Game.cpp.o"
   "/Users/vlad/CLionProjects/Game/Code/Hero/Hero.cpp" "/Users/vlad/CLionProjects/Game/cmake-build-debug/CMakeFiles/Game.dir/Code/Hero/Hero.cpp.o"

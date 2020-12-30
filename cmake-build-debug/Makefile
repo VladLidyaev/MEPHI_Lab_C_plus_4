@@ -268,6 +268,87 @@ Code/Creatures/Creature.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Creature.cpp.s
 .PHONY : Code/Creatures/Creature.cpp.s
 
+Code/Creatures/Goblin/GoblinBow/GoblinBow.o: Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o
+
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBow.o
+
+# target to build an object file
+Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.o
+
+Code/Creatures/Goblin/GoblinBow/GoblinBow.i: Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.i
+
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBow.i
+
+# target to preprocess a source file
+Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.i
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.i
+
+Code/Creatures/Goblin/GoblinBow/GoblinBow.s: Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.s
+
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBow.s
+
+# target to generate assembly for a file
+Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.s
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBow.cpp.s
+
+Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.o: Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o
+
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.o
+
+# target to build an object file
+Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.o
+
+Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.i: Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.i
+
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.i
+
+# target to preprocess a source file
+Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.i
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.i
+
+Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.s: Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.s
+
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.s
+
+# target to generate assembly for a file
+Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.s
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.cpp.s
+
+Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.o: Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o
+
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.o
+
+# target to build an object file
+Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.o
+
+Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.i: Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.i
+
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.i
+
+# target to preprocess a source file
+Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.i
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.i
+
+Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.s: Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.s
+
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.s
+
+# target to generate assembly for a file
+Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.s
+.PHONY : Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.cpp.s
+
 Code/Creatures/Goblin/GoblinClass.o: Code/Creatures/Goblin/GoblinClass.cpp.o
 
 .PHONY : Code/Creatures/Goblin/GoblinClass.o
@@ -295,6 +376,33 @@ Code/Creatures/Goblin/GoblinClass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinClass.cpp.s
 .PHONY : Code/Creatures/Goblin/GoblinClass.cpp.s
 
+Code/Creatures/Goblin/GoblinSpear/GoblinSpear.o: Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o
+
+.PHONY : Code/Creatures/Goblin/GoblinSpear/GoblinSpear.o
+
+# target to build an object file
+Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o
+.PHONY : Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.o
+
+Code/Creatures/Goblin/GoblinSpear/GoblinSpear.i: Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.i
+
+.PHONY : Code/Creatures/Goblin/GoblinSpear/GoblinSpear.i
+
+# target to preprocess a source file
+Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.i
+.PHONY : Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.i
+
+Code/Creatures/Goblin/GoblinSpear/GoblinSpear.s: Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.s
+
+.PHONY : Code/Creatures/Goblin/GoblinSpear/GoblinSpear.s
+
+# target to generate assembly for a file
+Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.s
+.PHONY : Code/Creatures/Goblin/GoblinSpear/GoblinSpear.cpp.s
+
 Code/Creatures/Mercenary/MercenaryClass.o: Code/Creatures/Mercenary/MercenaryClass.cpp.o
 
 .PHONY : Code/Creatures/Mercenary/MercenaryClass.o
@@ -321,6 +429,60 @@ Code/Creatures/Mercenary/MercenaryClass.s: Code/Creatures/Mercenary/MercenaryCla
 Code/Creatures/Mercenary/MercenaryClass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryClass.cpp.s
 .PHONY : Code/Creatures/Mercenary/MercenaryClass.cpp.s
+
+Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.o: Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o
+
+.PHONY : Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.o
+
+# target to build an object file
+Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o
+.PHONY : Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.o
+
+Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.i: Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.i
+
+.PHONY : Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.i
+
+# target to preprocess a source file
+Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.i
+.PHONY : Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.i
+
+Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.s: Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.s
+
+.PHONY : Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.s
+
+# target to generate assembly for a file
+Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.s
+.PHONY : Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.cpp.s
+
+Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.o: Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o
+
+.PHONY : Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.o
+
+# target to build an object file
+Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o
+.PHONY : Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.o
+
+Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.i: Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.i
+
+.PHONY : Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.i
+
+# target to preprocess a source file
+Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.i
+.PHONY : Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.i
+
+Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.s: Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.s
+
+.PHONY : Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.s
+
+# target to generate assembly for a file
+Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.s
+.PHONY : Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.cpp.s
 
 Code/Creatures/Ogre/OgreClass.o: Code/Creatures/Ogre/OgreClass.cpp.o
 
@@ -477,12 +639,30 @@ help:
 	@echo "... Code/Creatures/Creature.o"
 	@echo "... Code/Creatures/Creature.i"
 	@echo "... Code/Creatures/Creature.s"
+	@echo "... Code/Creatures/Goblin/GoblinBow/GoblinBow.o"
+	@echo "... Code/Creatures/Goblin/GoblinBow/GoblinBow.i"
+	@echo "... Code/Creatures/Goblin/GoblinBow/GoblinBow.s"
+	@echo "... Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.o"
+	@echo "... Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.i"
+	@echo "... Code/Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.s"
+	@echo "... Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.o"
+	@echo "... Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.i"
+	@echo "... Code/Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.s"
 	@echo "... Code/Creatures/Goblin/GoblinClass.o"
 	@echo "... Code/Creatures/Goblin/GoblinClass.i"
 	@echo "... Code/Creatures/Goblin/GoblinClass.s"
+	@echo "... Code/Creatures/Goblin/GoblinSpear/GoblinSpear.o"
+	@echo "... Code/Creatures/Goblin/GoblinSpear/GoblinSpear.i"
+	@echo "... Code/Creatures/Goblin/GoblinSpear/GoblinSpear.s"
 	@echo "... Code/Creatures/Mercenary/MercenaryClass.o"
 	@echo "... Code/Creatures/Mercenary/MercenaryClass.i"
 	@echo "... Code/Creatures/Mercenary/MercenaryClass.s"
+	@echo "... Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.o"
+	@echo "... Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.i"
+	@echo "... Code/Creatures/Mercenary/MercenaryFoot/MercenaryFoot.s"
+	@echo "... Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.o"
+	@echo "... Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.i"
+	@echo "... Code/Creatures/Mercenary/MercenaryHorse/MercenaryHorse.s"
 	@echo "... Code/Creatures/Ogre/OgreClass.o"
 	@echo "... Code/Creatures/Ogre/OgreClass.i"
 	@echo "... Code/Creatures/Ogre/OgreClass.s"

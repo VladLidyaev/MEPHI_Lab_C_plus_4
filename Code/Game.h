@@ -7,8 +7,11 @@
 #include <unistd.h>
 #include "Hero/Hero.h"
 #include "Creatures/Ogre/OgreClass.h"
-#include "Creatures/Mercenary/MercenaryClass.h"
-#include "Creatures/Goblin/GoblinClass.h"
+#include "Creatures/Mercenary/MercenaryHorse/MercenaryHorse.hpp"
+#include "Creatures/Mercenary/MercenaryFoot/MercenaryFoot.h"
+#include "Creatures/Goblin/GoblinSpear/GoblinSpear.h"
+#include "Creatures/Goblin/GoblinBow/GoblinBowShort/GoblinBowShort.h"
+#include "Creatures/Goblin/GoblinBow/GoblinBowTall/GoblinBowTail.hpp"
 #include <fstream>
 #include "cratures_templates.hpp"
 
@@ -19,7 +22,7 @@ private:
 
     coord generate_coordinates();  /// Получение случайных коориднат.
 
-    std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> generate_creatures();  /// Генерация персонажей.
+    std::vector<std::unique_ptr<Creature>> generate_creatures();  /// Генерация персонажей.
 
     std::vector<std::string> get_enemy_stat(coord loc);  /// Получение информации о персонаже по координатам.
 
@@ -51,7 +54,7 @@ private:
 
 public:
 
-    std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> main_vector;  /// Вектор, хранящий ссылки на всех персонажей и игрока.
+    std::vector<std::unique_ptr<Creature>> main_vector;  /// Вектор, хранящий ссылки на всех персонажей и игрока.
     level level; /// Уровень игрока.
     std::string name;  /// Имя игрока.
     coord win_field;  /// Координаты поля для перехода на след уровень.

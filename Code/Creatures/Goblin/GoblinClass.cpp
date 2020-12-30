@@ -4,7 +4,13 @@
 
 #include "GoblinClass.h"
 
-int GoblinClass::get_goblin_max_points(level level){
+void GoblinClass::check_the_trap() {
+    if (((location == coord(2,3))||(location == coord(1,7))||(location == coord(5,2))||(location == coord(4,4)))&&(condition==alive)){
+        condition == dead;
+    }
+}
+
+int GoblinClass::get_max_points(level level){
     switch (level) {
         case stupid:
             return 20;
@@ -17,13 +23,6 @@ int GoblinClass::get_goblin_max_points(level level){
     }
 }
 
-std::string GoblinClass::get_view() {
-    switch (condition) {
-        case alive:
-            return "G";
-        case dead:
-            return "✖";
-        case undead:
-            return "g";
-    }
+GoblinClass::GoblinClass() {
+
 }

@@ -10,27 +10,29 @@
         return coord(getRandomNumber(length-1),getRandomNumber(height-1));
     }
 
-std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::generate_creatures(){
-    std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> array;
+std::vector<std::unique_ptr<Creature>> Game::generate_creatures(){
+    std::vector<std::unique_ptr<Creature>> array;
         std::vector<int> Ogr_Gobl_Merc;
         switch (level) {
             case stupid:
-                Ogr_Gobl_Merc = {1,0,-2};
+                Ogr_Gobl_Merc = {1,0,-2,-2,-1,-1};
                 break;
             case beginner:
-                Ogr_Gobl_Merc = {1,1,-1};
+                Ogr_Gobl_Merc = {1,1,-1,-1,0,0};
                 break;
             case middle:
-                Ogr_Gobl_Merc = {2,1,0};
+                Ogr_Gobl_Merc = {2,1,0,0,1,1};
                 break;
             case pro:
-                Ogr_Gobl_Merc = {1,1,1};
-                break;
-        }
+                Ogr_Gobl_Merc = {1,1,1,1,1,1};
+                break;}
 
         int a = Ogr_Gobl_Merc[0]+floor;
         int b = Ogr_Gobl_Merc[1]+floor;
         int c = Ogr_Gobl_Merc[2]+floor;
+        int d = Ogr_Gobl_Merc[3]+floor;
+        int e = Ogr_Gobl_Merc[4]+floor;
+        int f = Ogr_Gobl_Merc[5]+floor;
 
         std::vector<coord> ban_list = {coord(0,0),coord(0,1),coord(1,0),coord(1,1),coord(2,0),coord(2,1),coord(2,2),coord(1,2),coord(0,2)};
 
@@ -40,8 +42,8 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
                 while (!flag){
                     coord new_loc = generate_coordinates();
                     if (!is_content(new_loc,ban_list)){
-                        auto* ogre = new OgreClass(level,length,height,new_loc);
-                        array.push_back(ogre);
+                        Creature *ogre = new OgreClass(level,length,height,new_loc);
+                        array.push_back(static_cast<std::unique_ptr<Creature, std::default_delete<Creature>>>(ogre));
                         ban_list.push_back(new_loc);
                         flag = true;
                     }
@@ -55,8 +57,8 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
                 while (!flag){
                     coord new_loc = generate_coordinates();
                     if (!is_content(new_loc,ban_list)){
-                        auto* goblin = new GoblinClass(level,length,height,new_loc);
-                        array.push_back(goblin);
+                        Creature *goblin = new MercenaryFoot(level,length,height,new_loc);
+                        array.push_back(static_cast<std::unique_ptr<Creature, std::default_delete<Creature>>>(goblin));
                         ban_list.push_back(new_loc);
                         flag = true;
                     }
@@ -70,8 +72,57 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
                 while (!flag){
                     coord new_loc = generate_coordinates();
                     if (!is_content(new_loc,ban_list)){
-                        auto* mercenary = new MercenaryClass(level,length,height,new_loc);
-                        array.push_back(mercenary);
+                        Creature *mercenary = new MercenaryHorse(level,length,height,new_loc);
+                        array.push_back(
+                                static_cast<std::unique_ptr<Creature, std::default_delete<Creature>>>(mercenary));
+                        ban_list.push_back(new_loc);
+                        flag = true;
+                    }
+                }
+            }
+        }
+
+        if (d>0){
+            for(int i=0; i < c; i++){
+                bool flag = false;
+                while (!flag){
+                    coord new_loc = generate_coordinates();
+                    if (!is_content(new_loc,ban_list)){
+                        Creature *mercenary = new GoblinSpear(level,length,height,new_loc);
+                        array.push_back(
+                                static_cast<std::unique_ptr<Creature, std::default_delete<Creature>>>(mercenary));
+                        ban_list.push_back(new_loc);
+                        flag = true;
+                    }
+                }
+            }
+        }
+
+        if (e>0){
+            for(int i=0; i < c; i++){
+                bool flag = false;
+                while (!flag){
+                    coord new_loc = generate_coordinates();
+                    if (!is_content(new_loc,ban_list)){
+                        Creature *mercenary = new GoblinBowShort(level,length,height,new_loc);
+                        array.push_back(
+                                static_cast<std::unique_ptr<Creature, std::default_delete<Creature>>>(mercenary));
+                        ban_list.push_back(new_loc);
+                        flag = true;
+                    }
+                }
+            }
+        }
+
+        if (f>0){
+            for(int i=0; i < c; i++){
+                bool flag = false;
+                while (!flag){
+                    coord new_loc = generate_coordinates();
+                    if (!is_content(new_loc,ban_list)){
+                        Creature *mercenary = new GoblinBowTail(level,length,height,new_loc);
+                        array.push_back(
+                                static_cast<std::unique_ptr<Creature, std::default_delete<Creature>>>(mercenary));
                         ban_list.push_back(new_loc);
                         flag = true;
                     }
@@ -178,18 +229,14 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
         std::vector<players_info> array;
         array.push_back(players_info(user.location,user.is_ally));
         for (int i=0; i< main_vector.size(); i++) {
-            std::visit([this,&i](auto&&  x){
-                if (x->is_alive == false) {
-                    main_vector.erase(main_vector.begin()+i);
-                }
-            }, main_vector[i].get_value());
+            if (main_vector[i]->is_alive == false) {
+                main_vector.erase(main_vector.begin()+i);
+            }
         }
         for (int i=0; i< main_vector.size(); i++){
-            std::visit([this,&i,&array](auto&&  x){
-                if (x->condition != dead) {
-                    array.push_back(players_info(x->location,x->is_ally));
-                }
-            }, main_vector[i].get_value());
+            if (main_vector[i]->condition != dead) {
+                array.push_back(players_info(main_vector[i]->location,main_vector[i]->is_ally));
+            }
         }
         return array;
     }
@@ -207,31 +254,29 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
     void Game::hero_hit(int a){
         if (hit_mode){
             for(int i=0; i<main_vector.size();i++){
-                std::visit([this,&i,&a](auto&&  x){
-                    if ((x->location == hit)&&((x->condition == alive) || (x->condition == undead))){
-                        x->reload_statistic(user.damage);
-                    } else {
-                        if ((x->location == hit)&&(x->condition == dead)){
-                            switch (a) {
-                                case 0:
-                                    if (user.mana >= x->max_points){
-                                        x->rebirth();
-                                        x->is_ally = true;
-                                        user.mana -= x->max_points;
-                                    }
-                                    break;
-                                case 1:
-                                    user.upgrade_health(x->max_points);
-                                    x->is_alive = false;
-                                    break;
-                                case 2:
-                                    user.upgrade_mana(x->max_points);
-                                    x->is_alive = false;
-                                    break;
-                            }
+                if ((main_vector[i]->location == hit)&&((main_vector[i]->condition == alive) || (main_vector[i]->condition == undead))){
+                    main_vector[i]->reload_statistic(user.damage);
+                } else {
+                    if ((main_vector[i]->location == hit)&&(main_vector[i]->condition == dead)){
+                        switch (a) {
+                            case 0:
+                                if (user.mana >= main_vector[i]->max_points){
+                                    main_vector[i]->rebirth();
+                                    main_vector[i]->is_ally = true;
+                                    user.mana -= main_vector[i]->max_points;
+                                }
+                                break;
+                            case 1:
+                                user.upgrade_health(main_vector[i]->max_points);
+                                main_vector[i]->is_alive = false;
+                                break;
+                            case 2:
+                                user.upgrade_mana(main_vector[i]->max_points);
+                                main_vector[i]->is_alive = false;
+                                break;
                         }
                     }
-                }, main_vector[i].get_value());
+                }
             }
             hit_mode_switch();
             next_step();
@@ -239,6 +284,8 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
     }
 
     std::vector<std::string> Game::get_matrix(){
+        std::cout << main_vector[0]->location.X << std::endl;
+    
         std::vector<std::string> ans;
         for (int i=0; i < height; i++) {
             std::string str = "";
@@ -252,12 +299,10 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
                         str += (user.get_view());
                     } else {
                         for (int k=0; k < main_vector.size(); k++){
-                            std::visit([this,&k,&add,&str,&i,&j](auto&&  x){
-                                if (x->location == coord(j,i)){
-                                    add = true;
-                                    str += (x->get_view());
-                                }
-                            }, main_vector[k].get_value());
+                            if (main_vector[k]->location == coord(j,i)){
+                                add = true;
+                                str += (main_vector[k]->get_view());
+                            }
                         }
                     }
                     if (!add){
@@ -335,35 +380,32 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
     void Game::next_step(){
         reload_info();
         for(int i=0; i<main_vector.size();i++){
-            std::visit([this,&i](auto&&  x){
-                reload_info();
-                coord step = x->action(all_info);
-                if (!(step == x->location)){
-                    if (!((x->condition == dead) || (x->is_alive == false))){
-                        bool flag = false;
-                        for(int j=0; j<main_vector.size();j++){
-                            std::visit([this,&i,&step,&flag,&x,&j](auto&&  y){
-                                if (user.location == step){
-                                    flag = true;
-                                    user.reload_statistic(x->damage);
-                                }
-                                if (i!=j){
-                                    if (y->location == step){
-                                        flag = true;
-                                        y->reload_statistic(x->damage);
-                                        if ((y->condition == dead) || (y->is_alive == false)){
-                                            x->upgrade();
-                                        }
-                                    }
-                                }
-                            }, main_vector[j].get_value());
+            reload_info();
+            coord step = main_vector[i]->action(all_info);
+            if (!(step == main_vector[i]->location)){
+                if (!((main_vector[i]->condition == dead) || (main_vector[i]->is_alive == false))){
+                    bool flag = false;
+                    for(int j=0; j<main_vector.size();j++){
+                        if (user.location == step){
+                            flag = true;
+                            user.reload_statistic(main_vector[i]->damage);
                         }
-                        if (!flag){
-                            x->location = step;
+                        if (i!=j){
+                            if (main_vector[j]->location == step){
+                                flag = true;
+                                main_vector[j]->reload_statistic(main_vector[i]->damage);
+                                if ((main_vector[j]->condition == dead) || (main_vector[j]->is_alive == false)){
+                                    main_vector[i]->upgrade();
+                                }
+                            }
                         }
                     }
+                    if (!flag){
+                        main_vector[i]->location = step;
+                    }
                 }
-            }, main_vector[i].get_value());
+            }
+            main_vector[i]->reload();
             system("clear");
             graph();
             check();
@@ -378,11 +420,9 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
                 coord loc = user.location;
                 bool flag = true;
                 for (int i=0; i < main_vector.size(); i++){
-                    std::visit([this,&i,&loc,&flag](auto&&  x){
-                        if (loc == x->location){
-                            flag = false;
-                        }
-                    }, main_vector[i].get_value());
+                    if (loc == main_vector[i]->location){
+                        flag = false;
+                    }
                 }
                 if (flag == false){
                     user.move_right();
@@ -403,11 +443,9 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
                 coord loc = user.location;
                 bool flag = true;
                 for (int i=0; i < main_vector.size(); i++){
-                    std::visit([this,&i,&loc,&flag](auto&&  x){
-                        if (loc == x->location){
-                            flag = false;
-                        }
-                    }, main_vector[i].get_value());
+                    if (loc == main_vector[i]->location){
+                        flag = false;
+                    }
                 }
                 if (flag == false){
                     user.move_left();
@@ -428,11 +466,9 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
                 coord loc = user.location;
                 bool flag = true;
                 for (int i=0; i < main_vector.size(); i++){
-                    std::visit([this,&i,&loc,&flag](auto&&  x){
-                        if (loc == x->location){
-                            flag = false;
-                        }
-                    }, main_vector[i].get_value());
+                    if (loc == main_vector[i]->location){
+                        flag = false;
+                    }
                 }
                 if (flag == false){
                     user.move_down();
@@ -453,11 +489,9 @@ std::vector<creatures_templates<OgreClass,GoblinClass,MercenaryClass>> Game::gen
                 coord loc = user.location;
                 bool flag = true;
                 for (int i=0; i < main_vector.size(); i++){
-                    std::visit([this,&loc,&flag](auto&&  x){
-                        if (loc == x->location){
-                            flag = false;
-                        }
-                    }, main_vector[i].get_value());
+                    if (loc == main_vector[i]->location){
+                        flag = false;
+                    }
                 }
                 if (!flag){
                     user.move_up();
@@ -475,17 +509,15 @@ std::vector<std::string> Game::get_enemy_stat(coord loc) {
     bool flag = false;
     std::vector<std::string> ans = {};
     for (int i=0; i < main_vector.size(); i++){
-        std::visit([this,&i,&loc,&flag,&ans](auto&&  x){
-            if (loc == x->location){
-                flag = true;
-                ans.push_back("▶ENEMY INFO: ");
-                ans.push_back(" ۞CASTE: " + get_type(x->caste));
-                ans.push_back("   ?CONDITION: " + get_cond(x->condition,x->is_ally));
-                ans.push_back("   ❥MAXHEALTH: " + std::to_string(x->max_points));
-                ans.push_back("   ❤HEALTH: " + std::to_string(x->health));
-                ans.push_back("   †DAMAGE: " + std::to_string(x->damage));
-            }
-        }, main_vector[i].get_value());
+        if (loc == main_vector[i]->location){
+            flag = true;
+            ans.push_back("▶ENEMY INFO: ");
+            ans.push_back(" ۞CASTE: " + get_type(main_vector[i]->caste));
+            ans.push_back("   ?CONDITION: " + get_cond(main_vector[i]->condition,main_vector[i]->is_ally));
+            ans.push_back("   ❥MAXHEALTH: " + std::to_string(main_vector[i]->max_points));
+            ans.push_back("   ❤HEALTH: " + std::to_string(main_vector[i]->health));
+            ans.push_back("   †DAMAGE: " + std::to_string(main_vector[i]->damage));
+        }
     }
     if (!flag){
         ans.push_back("▶ENEMY INFO:");
